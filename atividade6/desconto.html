@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule o desconto de seu produto!</title>
+</head>
+<body>
+    <script>
+        let preco1 = prompt("Informe o preço original do produto: ");
+        let valor_desconto = prompt("Informe a porcentagem do desconto: ");
+
+        let desconto = (preco1 * valor_desconto) / 100;
+        let preco_final = preco1 - desconto;
+
+        document.write(`O valor do produto com desconto é: ${preco_final.toFixed(2)}`);
+    </script>
+</body>
+</html>
